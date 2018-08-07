@@ -1,0 +1,33 @@
+.container {
+    margin: 30px;
+}
+
+.navbar {
+    background-color: sandybrown;
+    -webkit-border-radius: 9px;
+    padding: 20px 50px;
+}
+
+.logo{
+	img {
+		
+	}
+}
+.navlink{
+    color: black;
+    background-color:sandybrown;
+    padding: 20px;
+    margin:0px;
+    -webkit-border-radius: 9px;
+    transition: .3s
+}
+
+.activeNavlink {
+    color: sandybrown;
+    background-color:white;
+    padding: 20px 60px;
+    -webkit-border-radius: 9px;
+    transition: .3s;
+    align-self: end;
+    margin:0px;
+}
