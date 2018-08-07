@@ -1,33 +1,56 @@
-.container {
-    margin: 30px;
+$cream: #f9f9f4;
+$orange: #f89820;
+$brown: #69553a;
+
+.app-wrapper {
+	background-color: $cream;
+	height: 100vh;
+	width: 100vw;
+}
+
+.logo {
+	color: $orange;
+	padding-top: 50px;
+	&:hover {
+		text-decoration: none;
+		color: $orange;
+	}
 }
 
 .navbar {
-    background-color: sandybrown;
-    -webkit-border-radius: 9px;
-    padding: 20px 50px;
+	padding: 30px;
+	background-color: $cream;
+	-webkit-border-radius: 9px;
+	padding: 20px 50px;
 }
 
-.logo{
-	img {
-		
+.navlink {
+	color: white;
+	background-color: $orange;
+	font-weight: 700;
+	padding: 20px;
+	margin: 0px;
+	-webkit-border-radius: 9px;
+	transition: 0.3s;
+	&:hover {
+		text-decoration: none;
+		color: $cream;
+		background-color: $brown;
+		transition: 0.4s;
 	}
-}
-.navlink{
-    color: black;
-    background-color:sandybrown;
-    padding: 20px;
-    margin:0px;
-    -webkit-border-radius: 9px;
-    transition: .3s
 }
 
 .activeNavlink {
-    color: sandybrown;
-    background-color:white;
-    padding: 20px 60px;
-    -webkit-border-radius: 9px;
-    transition: .3s;
-    align-self: end;
-    margin:0px;
+	color: $orange;
+	background-color: $cream;
+	padding: 20px 60px;
+	-webkit-border-radius: 9px;
+	transition: 0.3s;
+	align-self: end;
+	margin: 0px;
+	&:hover {
+		text-decoration: none;
+		color: $orange;
+		background-color: $cream;
+	}
 }
