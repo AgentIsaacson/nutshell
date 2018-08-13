@@ -17,6 +17,23 @@ $brown: #69553a;
 	}
 }
 
+.sign-up-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-up-field{
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		font-size: 30px;
+	}
+}
+
 .navbar {
 	padding: 30px;
 	background-color: $cream;
@@ -24,7 +41,15 @@ $brown: #69553a;
 	padding: 20px 50px;
 }
 
-.navlink {
+.footer{
+	position: absolute;
+	bottom: 0px;
+	background-color: $orange;
+	width: 100vw;
+	padding: 20px;
+}
+
+/*.navlink {
 	color: white;
 	background-color: $orange;
 	font-weight: 700;
@@ -53,4 +78,4 @@ $brown: #69553a;
 		color: $orange;
 		background-color: $cream;
 	}
-}
+}*/

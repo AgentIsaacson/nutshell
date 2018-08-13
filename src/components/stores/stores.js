@@ -1,18 +1,21 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Navbar from "../navbar";
 
-export default class Search extends Component {
+export default class Stores extends Component {
 	render() {
 		return (
-			<div className="search">
+			<div className="stores">
+				<Navbar />
+				<h2>Here's our list of Stores</h2>
 				<div className="">
 					<NavLink
 						className={""}
 						activeClassName={"activeNavlink"}
 						exact
-						to="/stores/spacescape"
+						to="/stores/chocolatehouse"
 					>
-						Spacescape
+					<img src="/assets/logos/chocolate_house_logo.png" alt="The Chocolate House Logo"/>
 					</NavLink>
 				</div>
 				<div className="">
@@ -20,9 +23,9 @@ export default class Search extends Component {
 						className={""}
 						activeClassName={"activeNavlink"}
 						exact
-						to="/stores/coolness"
+						to="/stores/just-add-chocolate"
 					>
-						Coolness.io
+					<img src="/assets/logos/just_add_chocolate.jpg" alt="Just Add Chocolate Logo"/>
 					</NavLink>
 				</div>
 			</div>
