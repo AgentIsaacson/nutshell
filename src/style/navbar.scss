@@ -1,0 +1,46 @@
+.logo {
+	color: $orange;
+	padding-top: 50px;
+	&:hover {
+		text-decoration: none;
+		color: $orange;
+	}
+}
+
+.navbar {
+	padding: 30px;
+	background-color: $cream;
+	-webkit-border-radius: 9px;
+	padding: 20px 50px;
+}
+
+/*.navlink {
+	color: white;
+	background-color: $orange;
+	font-weight: 700;
+	padding: 20px;
+	margin: 0px;
+	-webkit-border-radius: 9px;
+	transition: 0.3s;
+	&:hover {
+		text-decoration: none;
+		color: $cream;
+		background-color: $brown;
+		transition: 0.4s;
+	}
+}
+
+.activeNavlink {
+	color: $orange;
+	background-color: $cream;
+	padding: 20px 60px;
+	-webkit-border-radius: 9px;
+	transition: 0.3s;
+	align-self: end;
+	margin: 0px;
+	&:hover {
+		text-decoration: none;
+		color: $orange;
+		background-color: $cream;
+	}
+}*/

@@ -7,15 +7,13 @@ export default class Navbar extends Component {
 			<div className="navbar">
 				<div className="link">
 					<NavLink className={"logo"} to="/">
-						<div>
-							<img src="/assets/logos\Nutshell-logos\2x\nutshell-logo-orange@2x.png" />
-							<p>Your New Gatekeeper</p>
-						</div>
+						<img src="/assets/logos\Nutshell-logos\2x\nutshell-logo-orange@2x.png" />
+						<p>Your New Gatekeeper</p>
 					</NavLink>
 				</div>
 				<div className="link">
 					<NavLink className={"navlink"} to="/">
-						Homepage
+						Home
 					</NavLink>
 				</div>
 				<div className="link">

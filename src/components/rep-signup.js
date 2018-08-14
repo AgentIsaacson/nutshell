@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default class RepSignup extends Component {
 	render() {
 		return (
-			<div className="store-form-container">
+			<div className="sign-up-field">
 				<h1>Start as a Vendor</h1>
 				<NavLink className={""} activeClassName={"activeNavlink"} to="/stores">
 					<button>Search for Businesses</button>

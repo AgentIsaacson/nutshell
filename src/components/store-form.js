@@ -15,6 +15,7 @@ export default class StoreForm extends Component {
 					<input />
 					<label>Your email:</label>
 					<input />
+					<button>Submit</button>
 				</div>
 				<Footer />
 			</div>
