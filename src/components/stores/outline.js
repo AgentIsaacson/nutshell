@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
+import Survey from "./survey";
 
 export const Outline = (title, description, link) => {
 	return (
@@ -8,7 +9,7 @@ export const Outline = (title, description, link) => {
 			<Navbar />
 			<h2>{title}</h2>
 			<p>{description}</p>
-			<a href={link}>Send {title} a Nutshell Here</a>
+			<Survey title = {title}/>
 			<Footer />
 		</div>
 	);

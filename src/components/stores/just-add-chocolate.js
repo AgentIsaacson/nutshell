@@ -8,7 +8,6 @@ export default class JustAddChocolate extends Component {
 				{Outline(
 					"Just Add Chocolate",
 					"Description",
-					"https://www.surveymonkey.com/r/2YBBVPL"
 				)}
 				
 			</div>
