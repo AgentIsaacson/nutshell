@@ -8,7 +8,7 @@ export default class About extends Component {
 			<div className="about">
 				<Navbar />
 				<h1>About Us</h1>
-				<p>Some Heckin sweet content about us cuz we're cool</p>
+				<p>This is the description of Nutshell. Content goes here</p>
 				<Footer />
 			</div>
 		);
