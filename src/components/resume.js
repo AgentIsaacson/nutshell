@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
 
-export default class Contact extends Component {
+export default class Resume extends Component {
 	render() {
 		return (
-			<div className="contact">
+			<div className="resume">
 				<Navbar />
-				<h1>Contact Us</h1>
-				<p>email@emailgoeshere.com</p>
-				<p>801-123-4567</p>
+				<div className="sign-up-container">
+					resume
+				</div>
 				<Footer />
 			</div>
 		);

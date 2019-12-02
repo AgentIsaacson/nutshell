@@ -1,19 +1,22 @@
-$cream: #f9f9f4;
-$orange: #f89820;
-$brown: #69553a;
+$black: #141414;
+$grey: #2f2f2f;
+$darkblue: #064789;
+$blue: #2364aa;
+$lightblue: #427aa1;
 
-@import "checklist";
 @import "navbar";
-@import "signup";
+@import "gallery";
 
 .app-wrapper {
-	background-color: $cream;
+	background-color: $grey;
 	height: 100vh;
 	width: 100vw;
+	color: white;
 }
 
 .footer {
-	background-color: $orange;
+	background-color: $black;
+	color: white;
 	width: 100vw;
 	padding: 20px;
 	margin-top: 50px;
